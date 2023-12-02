@@ -15,7 +15,7 @@ var (
 )
 
 func main() {
-	b, err := os.ReadFile("day2.txt")
+	b, err := os.ReadFile("day_2.txt")
 	if err != nil {
 		panic(err)
 	}
