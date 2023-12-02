@@ -7,8 +7,8 @@ Do note, this is my first year doing AOC, and I'm not really optimizing for the 
 ## Time-to-write:
 
 1. Day 1
-  a) 23 min
-  b) 52 min (we both fucked up and misunderstood the problem lol)
+    a) 23 min
+    b) 52 min (we both fucked up and misunderstood the problem lol)
 2. Day 2
-  a) 38 min
-  b) 9 min
+    a) 38 min
+    b) 9 min
