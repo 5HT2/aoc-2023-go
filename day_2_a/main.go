@@ -7,6 +7,7 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	"time"
 )
 
 var (
@@ -20,6 +21,7 @@ func main() {
 		panic(err)
 	}
 
+	start := time.Now().UnixNano()
 	totalGameIDs := 0
 
 	s := strings.Split(string(b), "\n")
@@ -86,5 +88,7 @@ func main() {
 		log.Printf("%s\n", l)
 	}
 
-	log.Printf("output: %v\n", totalGameIDs)
+	stop := time.Now().UnixNano()
+	diff := float32(stop-start) / 1000000
+	log.Printf("took %.2fms, answer: %v\n", diff, totalGameIDs)
 }
